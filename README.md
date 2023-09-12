@@ -55,7 +55,7 @@ composer require laravel/sail --dev
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
-DB_DATABASE=api
+DB_DATABASE=bitchest_api
 DB_USERNAME=sail
 DB_PASSWORD=password
 ```
@@ -90,7 +90,7 @@ sail up
 
 ###### Dans un autre terminal
 
-Toujours dans le répertoire `/api` 6. Générez la clé de l'application Laravel :
+6. Générez la clé de l'application Laravel :
 
 ```bash
 sail artisan key:generate
